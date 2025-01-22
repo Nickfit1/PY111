@@ -11,8 +11,11 @@ def check_brackets(brackets_row: str) -> bool:
     for i in brackets_row:
         if i=='(':
             stack.append(i)
-        elif i==')':
-            stack.clear()
+        elif i==')' and stack:
+            stack.pop()
+        elif i == ')' and not stack:
+            return False
+
     if not stack:
         return True
     else:
