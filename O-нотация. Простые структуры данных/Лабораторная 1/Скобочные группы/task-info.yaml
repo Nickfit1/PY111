@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: '...'
         selected: true
-        status: Solved
+        status: Unchecked
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -23,9 +23,10 @@ files:
   - name: tests/__init__.py
     visible: false
     learner_created: false
-status: Solved
+status: Unchecked
 feedback:
-  message: Congratulations!
-  time: "Wed, 22 Jan 2025 17:41:34 UTC"
+  message: "No tests have run. For more information, see <a href=\"https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/troubleshooting-guide.html#no_tests_have_run\"\
+    >the Troubleshooting guide</a>"
+  time: "Tue, 28 Jan 2025 17:29:21 UTC"
 record: -1
 solution_hidden: false

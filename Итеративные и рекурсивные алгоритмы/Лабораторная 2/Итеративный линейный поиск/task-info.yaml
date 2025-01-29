@@ -3,8 +3,8 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 294
-        length: 193
+      - offset: 331
+        length: 198
         placeholder_text: "...  # TODO реализовать итеративный линейный поиск"
         initial_state:
           length: 50
@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: '...'
         selected: true
-        status: Failed
+        status: Unchecked
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -23,8 +23,9 @@ files:
   - name: tests/__init__.py
     visible: false
     learner_created: false
-status: Failed
+status: Unchecked
 feedback:
-  message: Error
-  time: "Wed, 22 Jan 2025 18:02:59 UTC"
+  message: "No tests have run. For more information, see <a href=\"https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/troubleshooting-guide.html#no_tests_have_run\"\
+    >the Troubleshooting guide</a>"
+  time: "Tue, 28 Jan 2025 17:04:42 UTC"
 record: -1

@@ -4,14 +4,14 @@ files:
     visible: true
     placeholders:
       - offset: 520
-        length: 53
+        length: 358
         placeholder_text: "...  # TODO реализовать алгоритм сортировки пузырьком"
         initial_state:
           length: 53
           offset: 520
         initialized_from_dependency: false
         encrypted_possible_answer: '...'
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: tests/test_task.py

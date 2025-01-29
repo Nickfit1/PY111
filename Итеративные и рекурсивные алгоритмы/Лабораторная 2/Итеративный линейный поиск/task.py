@@ -11,6 +11,9 @@ def min_search(arr: List[int]) -> int:
     :param arr: Массив целых чисел
     :return: Индекс первого вхождения элемента в массиве
     """
+    if not arr:
+        raise ValueError
+
     min = arr[0]
     ind = 0
     for i in range(len(arr)):

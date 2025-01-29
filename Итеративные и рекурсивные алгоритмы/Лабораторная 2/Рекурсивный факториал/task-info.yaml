@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 203
-        length: 66
+        length: 280
         placeholder_text: "...  # TODO реализовать рекурсивный алгоритм нахождения фак\
       ториала"
         initial_state:
@@ -12,7 +12,7 @@ files:
           offset: 203
         initialized_from_dependency: false
         encrypted_possible_answer: '...'
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: tests/test_task.py

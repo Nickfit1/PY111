@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: self._stack.append(elem)
         selected: true
-        status: Failed
+        status: Unchecked
       - offset: 605
         length: 56
         placeholder_text: "...  # TODO реализовать операцию pop"
@@ -26,7 +26,7 @@ files:
           
                   return self._stack.pop()
         selected: true
-        status: Failed
+        status: Unchecked
       - offset: 1133
         length: 196
         placeholder_text: "...  # TODO реализовать операцию peek"
@@ -44,7 +44,7 @@ files:
                   inv_ind = -1 - ind
                   return self._stack[inv_ind]
         selected: true
-        status: Failed
+        status: Unchecked
       - offset: 1399
         length: 54
         placeholder_text: "...  # TODO реализовать операцию clear"
@@ -54,7 +54,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: self._stack.clear()
         selected: true
-        status: Failed
+        status: Unchecked
       - offset: 1539
         length: 59
         placeholder_text: "...  # TODO реализовать операцию __len__"
@@ -64,7 +64,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: return len(self._stack)
         selected: true
-        status: Failed
+        status: Unchecked
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -75,8 +75,9 @@ files:
   - name: tests/__init__.py
     visible: false
     learner_created: false
-status: Failed
+status: Unchecked
 feedback:
-  message: Incorrect
-  time: "Wed, 22 Jan 2025 16:36:14 UTC"
+  message: "No tests have run. For more information, see <a href=\"https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/troubleshooting-guide.html#no_tests_have_run\"\
+    >the Troubleshooting guide</a>"
+  time: "Tue, 28 Jan 2025 17:34:40 UTC"
 record: -1

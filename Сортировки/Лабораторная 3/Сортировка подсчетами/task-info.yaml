@@ -4,14 +4,14 @@ files:
     visible: true
     placeholders:
       - offset: 486
-        length: 54
+        length: 522
         placeholder_text: "...  # TODO реализовать алгоритм сортировки подсчетами"
         initial_state:
           length: 54
           offset: 486
         initialized_from_dependency: false
         encrypted_possible_answer: '...'
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: tests/test_task.py
@@ -28,4 +28,8 @@ files:
     is_binary: true
     learner_created: false
 status: Unchecked
+feedback:
+  message: "No tests have run. For more information, see <a href=\"https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/troubleshooting-guide.html#no_tests_have_run\"\
+    >the Troubleshooting guide</a>"
+  time: "Wed, 29 Jan 2025 04:44:05 UTC"
 record: -1
